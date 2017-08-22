@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
+    card_view:cardBackgroundColor="@color/pink_500"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="4dp">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etIme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ime" />
+
+        <EditText
+            android:id="@+id/etPrezime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prezime" />
+
+        <EditText
+            android:id="@+id/etGodine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Godine" />
+
+        <EditText
+            android:id="@+id/etTehnoIskustvo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iskustvo (u mjesecima) u toj tehnologiji u kojoj misli raditi u projektu" />
+
+        <EditText
+            android:id="@+id/etIskustvo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iskustvo opcenito" />
+
+        <EditText
+            android:id="@+id/etObrazovanje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stupanj Obrazovanja" />
+
+        <EditText
+            android:id="@+id/etZnanje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Znanje covjeka u danoj tehnologiji" />
+
+        <EditText
+            android:id="@+id/etDani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Koliko je dana proslo od kada je kandidat zadnji puta radio na legalnom poslu za placu" />
+
+        <EditText
+            android:id="@+id/etTehnoDani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Koliko je dana proslo od kada je kandidat zadnji puta radio u danoj tehnologiji" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.v7.widget.CardView>
